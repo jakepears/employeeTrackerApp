@@ -17,11 +17,11 @@ INSERT INTO role (title, salary, department_id) VALUES
 
 -- Insert sample employees
 INSERT INTO employee (first_name, last_name, role_id, manager_id) VALUES
-  ('John', 'Doe', 1, NULL),
-  ('Mike', 'Chan', 2, 1),
-  ('Ashley', 'Rodriguez', 3, NULL),
-  ('Kevin', 'Tupik', 4, 3),
-  ('Malia', 'Brown', 5, NULL),
-  ('Sarah', 'Lourd', 6, NULL),
-  ('Tom', 'Allen', 7, 6),
-  ('Christian', 'Eckenrode', 3, 2);
+  ('Jake', 'Pearson', 1, NULL),
+  ('Aubrey', 'Drake', 2, 1),
+  ('Tupac', 'Shakur', 3, NULL),
+  ('Don', 'Toliver', 4, 3),
+  ('Morgan', 'Wallen', 5, NULL),
+  ('Post', 'Mallone', 6, NULL),
+  ('Snoop', 'Dogg', 7, 6),
+  ('Doctor', 'Dre', 3, 2);

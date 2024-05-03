@@ -1,6 +1,7 @@
 /** @format */
 
 const mysql = require('mysql2');
+require('dotenv').config();
 
 // Create a connection to the database
 const connection = mysql.createConnection({
